@@ -8,11 +8,11 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1.Data Preparation: Load the dataset, map categorical labels to numerical values (0 and 1), and normalize input features using StandardScaler to ensure stable convergence.
-2.Initialization: Set the weights (theta) to zero and define hyperparameters, including the learning rate (\alpha) and the number of iterations for the gradient descent process.
-3.Forward Propagation: Use the sigmoid function to map the linear combination of inputs and weights into a probability value between 0 and 1.
-4.Optimization: Iteratively update the weights by calculating the gradient of the cost function (log-loss) and moving in the opposite direction to minimize the error.
-5.Prediction & Evaluation: Apply a decision threshold of 0.5 to the final probabilities to classify outcomes and calculate the model's overall classification accuracy.
+Data Preparation: Load the dataset, map categorical labels to numerical values (0 and 1), and normalize input features using StandardScaler to ensure stable convergence.
+Initialization: Set the weights (theta) to zero and define hyperparameters, including the learning rate (\alpha) and the number of iterations for the gradient descent process.
+Forward Propagation: Use the sigmoid function to map the linear combination of inputs and weights into a probability value between 0 and 1.
+Optimization: Iteratively update the weights by calculating the gradient of the cost function (log-loss) and moving in the opposite direction to minimize the error.
+Prediction & Evaluation: Apply a decision threshold of 0.5 to the final probabilities to classify outcomes and calculate the model's overall classification accuracy.
 ## Program:
 ```
 /*
